@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+  <div class="container">
+    <h1>FORMULARIO DE CONTACTO</h1>
+
+    <form id="formulario" action="#" method="post">
+  <label for="Nombre">Nombre</label>
+  <input type="text" id="Nombre" name="Nombre" required>
+  <label for="email">correo electronico</label>
+  <input type="email" id="email" name="email" required>
+  <label for="fecha_nacimiento">fecha_nacimiento</label>
+  <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+  <label for="telefono">movil</label>
+  <input type="tel" id="telefono" name="telefono" pattern="¨[0-9]{10}" required>
+  <label for="mensaje">mensaje</label>
+  <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+  <label for="pais">pais</label>
+  <select id="pais" name="pais" required>
+    <option value=""disabled selected>selecciona tu pais</option>
+    <option value="es">españa</option>
+     <option value="co">colombia</option>
+      <option value="mx">mexico</option>
+       <option value="ar">argentina</option>
+
+  </select>
+  
+  </form>
+  </div> 
+</body>
+</html>
